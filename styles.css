@@ -1,0 +1,143 @@
+body {
+  font-family: monospace;
+  color: black;
+  background-color: black;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  padding: 48px;
+}
+header nav a {
+  font-size: large;
+  text-decoration: none;
+  color: aliceblue;
+  margin: 10px;
+  transition: all 0.3ms ease-in-out;
+}
+
+button {
+  width: 160px;
+  margin-top: 20px;
+  height: 60px;
+  border: 2px solid white;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+}
+
+.logo-placeholder {
+  font-size: 24px;
+  color: aliceblue;
+}
+
+.container-1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+}
+.container-1 .direction {
+  display: flex;
+  flex: 1;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.container-2 > .cards{
+  display: flex;
+  flex-direction: row;
+
+}
+.direction > h1 {
+  font-size: 50px;
+}
+
+.section-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  padding-left: 100px;
+  background-color: rgb(40, 74, 74);
+  align-items: center;
+  flex-direction: row;
+}
+.textContainer {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.section-three {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+.container-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+
+}
+.container-3 > .author{
+  align-self: right;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: large;
+}
+.testimontial{
+  font-size: 24px;
+}
+.placeholder{
+  width: 200px;
+  border-radius: 20px;
+  background-color: black;
+  height: 200px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  margin: 10px;
+}
+.container-2 > h1{
+  font-size: 56px;
+}
